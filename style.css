@@ -1,0 +1,61 @@
+body{
+    background: url("images/space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#board{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 40px auto;
+    border: 2px solid #fff;
+    background-color: black;
+}
+#jet{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url("images/rocket.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    bottom: 0px;
+}
+.bullets{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    width: 30px;
+    height: 30px;
+    background: url("images/bullet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rocks{
+    position: absolute;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    background: url("images/alien.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#points{
+    position: absolute;
+    top: 13px;
+    left: 140px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+
+}
+p{
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
